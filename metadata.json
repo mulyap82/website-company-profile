@@ -1,0 +1,6 @@
+{
+  "name": "Dapure Cakra",
+  "description": "Website Company Profile yang responsif untuk catering dan kuliner Dapure Cakra Purwokerto, menyajikan hidangan berkualitas tinggi untuk setiap momen spesial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
