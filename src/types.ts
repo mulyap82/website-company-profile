@@ -1,3 +1,9 @@
+import logoNasiBox from './assets/images/nasi_box_premium_1780046604005.png';
+import logoSnackBox from './assets/images/snack_box_premium_1780047171046.png';
+import logoTumpeng from './assets/images/tumpeng_premium_1780047606685.png';
+import logoBolen from './assets/images/pisang_bolen_premium_1780047705173.png';
+import logoBrownies from './assets/images/fudgy_brownies_premium_1780047856744.png';
+
 export interface MenuItem {
   id: string;
   name: string;
@@ -31,7 +37,7 @@ export const menuItems: MenuItem[] = [
     category: 'nasi-box',
     description: 'Nasi Ayam / lele bakar / goreng, Sayur 1 macam Atau sambel + lalaban',
     price: 16000,
-    image: '/src/assets/images/nasi_box_premium_1780046604005.png'
+    image: logoNasiBox
   },
   {
     id: 'nasi-box-paket-2',
@@ -39,7 +45,7 @@ export const menuItems: MenuItem[] = [
     category: 'nasi-box',
     description: 'Nasi Ayam bakar / goreng, Sambel lalab, Sayur 1 macam, Buah / krupuk',
     price: 18000,
-    image: '/src/assets/images/nasi_box_premium_1780046604005.png'
+    image: logoNasiBox
   },
   {
     id: 'nasi-box-paket-3',
@@ -47,7 +53,7 @@ export const menuItems: MenuItem[] = [
     category: 'nasi-box',
     description: 'Nasi Ayam bakar / goreng, Sambel lalab, 2 macam sayur, krupuk + buah',
     price: 20000,
-    image: '/src/assets/images/nasi_box_premium_1780046604005.png'
+    image: logoNasiBox
   },
   {
     id: 'nasi-box-paket-4',
@@ -55,7 +61,7 @@ export const menuItems: MenuItem[] = [
     category: 'nasi-box',
     description: 'Nasi Rendang daging / ayam kampung, Sambel goreng kentang, capcay, Krupuk, Buah, Alat mkn',
     price: 30000,
-    image: '/src/assets/images/nasi_box_premium_1780046604005.png'
+    image: logoNasiBox
   },
   
   // SNACK BOX
@@ -65,7 +71,7 @@ export const menuItems: MenuItem[] = [
     category: 'snack-box',
     description: 'Bolu, Puding / arem²',
     price: 5500,
-    image: '/src/assets/images/snack_box_premium_1780047171046.png'
+    image: logoSnackBox
   },
   {
     id: 'snack-box-paket-2',
@@ -73,7 +79,7 @@ export const menuItems: MenuItem[] = [
     category: 'snack-box',
     description: 'Bolu, Risol mayo, Kacang',
     price: 7500,
-    image: '/src/assets/images/snack_box_premium_1780047171046.png'
+    image: logoSnackBox
   },
   {
     id: 'snack-box-paket-3',
@@ -81,7 +87,7 @@ export const menuItems: MenuItem[] = [
     category: 'snack-box',
     description: 'Arem² / puding, Risol mayo / martabak, Bolen',
     price: 8500,
-    image: '/src/assets/images/snack_box_premium_1780047171046.png'
+    image: logoSnackBox
   },
   {
     id: 'snack-box-paket-4',
@@ -89,7 +95,7 @@ export const menuItems: MenuItem[] = [
     category: 'snack-box',
     description: 'Bolen / sus premium, Arem², Risol mayo / martabak, Kacang / permen / puding',
     price: 10000,
-    image: '/src/assets/images/snack_box_premium_1780047171046.png'
+    image: logoSnackBox
   },
 
   // TUMPENG
@@ -99,7 +105,7 @@ export const menuItems: MenuItem[] = [
     category: 'tumpeng',
     description: 'Nasi kuning, Ayam goreng, Telor balado, Mie goreng, Orek tempe',
     price: 150000,
-    image: '/src/assets/images/tumpeng_premium_1780047606685.png'
+    image: logoTumpeng
   },
   {
     id: 'tumpeng-2',
@@ -107,7 +113,7 @@ export const menuItems: MenuItem[] = [
     category: 'tumpeng',
     description: 'Nasi kuning, Ayam goreng, Telor balado, Mie goreng, Orek tempe, Pekedel kentang, Krupuk',
     price: 300000,
-    image: '/src/assets/images/tumpeng_premium_1780047606685.png'
+    image: logoTumpeng
   },
 
   // BOLEN
@@ -117,7 +123,7 @@ export const menuItems: MenuItem[] = [
     category: 'bolen',
     description: 'Bolen Pisang isi Coklat / Keju isi 6',
     price: 20000,
-    image: '/src/assets/images/pisang_bolen_premium_1780047705173.png'
+    image: logoBolen
   },
   {
     id: 'bolen-6-mix',
@@ -125,7 +131,7 @@ export const menuItems: MenuItem[] = [
     category: 'bolen',
     description: 'Bolen Pisang mix isi coklat keju isi 6',
     price: 23000,
-    image: '/src/assets/images/pisang_bolen_premium_1780047705173.png'
+    image: logoBolen
   },
   {
     id: 'bolen-8',
@@ -133,7 +139,7 @@ export const menuItems: MenuItem[] = [
     category: 'bolen',
     description: 'Bolen Pisang isi Coklat / Keju isi 8',
     price: 27000,
-    image: '/src/assets/images/pisang_bolen_premium_1780047705173.png'
+    image: logoBolen
   },
   {
     id: 'bolen-8-mix',
@@ -141,7 +147,7 @@ export const menuItems: MenuItem[] = [
     category: 'bolen',
     description: 'Bolen Pisang mix isi coklat keju isi 8',
     price: 30000,
-    image: '/src/assets/images/pisang_bolen_premium_1780047705173.png'
+    image: logoBolen
   },
 
   // FUDGY BROWNIES
@@ -151,7 +157,7 @@ export const menuItems: MenuItem[] = [
     category: 'brownies',
     description: 'Fudgy brownies ukuran 20x20 cm',
     price: 65000,
-    image: '/src/assets/images/fudgy_brownies_premium_1780047856744.png'
+    image: logoBrownies
   },
   {
     id: 'brownies-10x20',
@@ -159,7 +165,7 @@ export const menuItems: MenuItem[] = [
     category: 'brownies',
     description: 'Fudgy brownies ukuran 10x20 cm',
     price: 35000,
-    image: '/src/assets/images/fudgy_brownies_premium_1780047856744.png'
+    image: logoBrownies
   }
 ];
 
@@ -168,7 +174,7 @@ export const services: ServiceItem[] = [
     id: 'katering',
     title: 'Katering',
     description: 'Layanan catering profesional dengan hidangan berkualitas untuk mendukung kelancaran berbagai acara Anda.',
-    image: '/src/assets/images/nasi_box_premium_1780046604005.png'
+    image: logoNasiBox
   },
   {
     id: 'ulang-tahun',
